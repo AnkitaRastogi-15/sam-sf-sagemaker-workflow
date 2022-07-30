@@ -256,7 +256,7 @@ Resources:
                           {
                             "Effect": "Allow",
                             "Action": [
-                              "sagemaker:ListTags"
+                              "sagemaker:*Tags"
                             ],
                             "Resource": [
                               "*"
