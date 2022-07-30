@@ -9,7 +9,7 @@
                 "TrainingJobName.$": "$.commitID",
                 "ResourceConfig": {
                     "InstanceCount": 1,
-                    "InstanceType": "ml.c4.2xlarge",
+                    "InstanceType": "ml.m4.xlarge",
                     "VolumeSizeInGB": 20
                 },
                 "HyperParameters": {
